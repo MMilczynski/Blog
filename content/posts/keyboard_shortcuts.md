@@ -2,7 +2,7 @@
 layout =  "post"
 title =  "Accelerating Windows 10 workflows with keyboard shortcuts"
 description ="First blog post on key-shortcuts."
-tags = ["basics", "keyboard", "shortcuts"]
+tags = ["Basics", "Keyboard", "Shortcuts", "Tutorial"]
 date = "2020-08-16"
 share = true
 comments = true
