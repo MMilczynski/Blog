@@ -8,7 +8,7 @@ share = true
 comments = true
 +++
 
-Power BI is Microsoft's solution for creating powerful business intelligence reports. It provides tools for creating Extract, Transform and Load (ETL) pipelines as well as impressive visualizations which contain animations and allow user interaction. The steepness of Power BI's learning curve depends a bit on the user's background. With some practice though one can manage to create a solid report within one day. So this is what we're going to do in this tutorial, creating a dashboard in one day!
+Power BI is Microsoft's solution for creating powerful business intelligence reports. It provides tools for creating Extract, Transform and Load (ETL) pipelines as well as impressive visualizations which contain animations and allow user interaction. The steepness of Power BI's learning curve depends a bit on the user's background. With some practice though one can manage to create a solid report within one day. To help newcomers to Power BI with getting started and understanding some fundamental concepts I created a three-part tutorial series. 
 
 The material I'm going to present here is based on a Power BI workshop that took place in Irvine, CA in early 2019. Power BI underwent some substantial changes since then so it makes sense to look at some new features as well. 
 
@@ -23,6 +23,14 @@ In this tutorial we will create a powerful Power BI dashboard. We will analyze r
 {{< figure src="https://github.com/MMilczynski/PowerBITutorialData/blob/master/images/Dashboard_Intro_02.gif?raw=true" caption="The dashboard we will create for analyzing revenue data for the fictive company Van Ardsel and competition." width="100%" >}}
 
 <!-- ![Dashboard_Intro_02](https://github.com/MMilczynski/PowerBITutorialData/blob/master/images/Dashboard_Intro_02.gif?raw=true) -->
+
+# Installing and launching Power BI
+
+Follow this link [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/) to get the free version of the application. You'll find a download link in the **Microsoft Power BI Desktop** section which will link you to the Microsoft Store. After downloading and installing you should be ready to launch **Power BI**. Upon launch you'll see this intro screen:
+
+{{< figure src="/images/intro_screen_01.png" caption="Intro screen upon launching Power BI Desktop." width="100%" >}}
+
+If you don't want to see this screen in future sessions you can un-check the `Show this screen on startup` checkbox in the bottom of the screen. Close the screen manually for the time being. 
 
 # Dataset
 
@@ -56,13 +64,7 @@ Last but not least, we have the **geo** spreadsheet that lists zip-codes, cities
 
 The files in the `InternationalSales` folder contain tables with the same format as the table in `sales.csv` except for an additional `Country` column. 
 
-# Installing and launching Power BI
 
-Follow this link [Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/) to get the free version of the application. You'll find a download link in the **Microsoft Power BI Desktop** section which will link you to the Microsoft Store. After downloading and installing you should be ready to launch **Power BI**. Upon launch you'll see this intro screen:
-
-{{< figure src="/images/intro_screen_01.png" caption="Intro screen upon launching Power BI Desktop." width="100%" >}}
-
-If you don't want to see this screen in future sessions you can un-check the `Show this screen on startup` checkbox in the bottom of the screen. Close the screen manually for the time being. 
 
 # Things to be aware of
 
