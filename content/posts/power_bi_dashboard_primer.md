@@ -1,7 +1,7 @@
 +++
 layout =  "post"
-title =  "Your first Power BI report from scratch"
-description ="Intro Power BI dashboard tutorial"
+title =  "Power BI tutorial part 1: Installation and setup"
+description ="Power BI tutorial part 1"
 tags = ["Power BI", "Business Intelligence", "Tutorial"]
 date = "2020-08-26"
 share = true
@@ -10,13 +10,19 @@ comments = true
 
 Power BI is Microsoft's solution for creating powerful business intelligence reports. It provides tools for creating Extract, Transform and Load (ETL) pipelines as well as impressive visualizations which contain animations and allow user interaction. The steepness of Power BI's learning curve depends a bit on the user's background. With some practice though one can manage to create a solid report within one day. So this is what we're going to do in this tutorial, creating a dashboard in one day!
 
-The material I'm going to present here is based on a Power BI workshop that took place in Irvine, CA in early 2019. Power BI underwent some substantial changes since then so it makes sense to look at some new features as well. Are you ready? So let's get started!
+The material I'm going to present here is based on a Power BI workshop that took place in Irvine, CA in early 2019. Power BI underwent some substantial changes since then so it makes sense to look at some new features as well. 
+
+{{< table_of_contents >}}
+
+Are you ready? So let's get started!
 
 # Spoiler alert
 
 In this tutorial we will create a powerful Power BI dashboard. We will analyze revenue data for the fictive company Van Ardsel and its competitors. We will gain sales insights and find that Van Ardsel sales were stronger for certain product segments relative to its competition. Power BI will allow us to to interact with the dashboard and analyze the data by country, year, and product segments. We will dive deeper into the data by performing drill-down/up operations based on a relational data model we will create. 
 
-{{< figure src="/images/Dashboard_Intro_02.gif" caption="The dashboard we will create for analyzing revenue data for the fictive company Van Ardsel and competition." width="100%" >}}
+{{< figure src="https://github.com/MMilczynski/PowerBITutorialData/blob/master/images/Dashboard_Intro_02.gif?raw=true" caption="The dashboard we will create for analyzing revenue data for the fictive company Van Ardsel and competition." width="100%" >}}
+
+<!-- ![Dashboard_Intro_02](https://github.com/MMilczynski/PowerBITutorialData/blob/master/images/Dashboard_Intro_02.gif?raw=true) -->
 
 # Dataset
 
@@ -207,7 +213,7 @@ Select the `Manufacturer` query. We already have seen in the beginning of this t
 
 ## Combining Sales and International  queries
 
-The last transformation we want to perform in the `Query Editor` is to combine the `Sales` and `International Sales` queries. This makes sense since later on we will want to analyze the data across countries. What we will do is to append the `International Sales` query to the `Sales` query. We will then perform a number of transformations on the `Sales` query. 
+The last transformation we want to perform in the `Query Editor` is to combine the `Sales` and `International Sales` queries. This makes sense since later on we will want to analyze the data across countries. What we will do is to append the `International Sales` query to the `Sales` query. We will then perform a number of transformations on the `Sales` query.  
 
 Select the `Sales` query. Select the `Sales` query and from the **Home** menu item select **Append Queries** from the **Combine** section. A pop-up dialog will show up allowing you to select how many tables you want to append and which ones to append. We leave the **Two Tables** setting selected and will select `International Sales` from the **Table to Append** drop-down list. 
 
